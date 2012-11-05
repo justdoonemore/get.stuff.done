@@ -1,0 +1,34 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:id="@+id/titleBar"
+        style="@style/TitleBar" >
+
+        <ImageButton
+            android:id="@+id/title_home"
+            style="@style/TitleBarAction"
+            android:contentDescription="@string/description_home"
+            android:src="@drawable/title_home" />
+
+        <ImageView
+            style="@style/TitleBarSeparator"
+            android:contentDescription="@string/separator" />
+
+        <TextView
+            android:id="@+id/title_text"
+            style="@style/TitleBarText" />
+
+        <ImageButton
+            android:id="@+id/title_add_task"
+            style="@style/TitleBarAction"
+            android:contentDescription="@string/description_addTask"
+            android:src="@drawable/title_add_task" />
+
+        <ImageButton
+            android:id="@+id/title_about"
+            style="@style/TitleBarAction"
+            android:contentDescription="@string/description_about"
+            android:src="@drawable/title_about" />
+    </LinearLayout>
+
+</merge>

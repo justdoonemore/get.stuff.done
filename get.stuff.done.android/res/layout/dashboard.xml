@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/db1_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:padding="6dip" >
+
+        
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/home_btn_addTask"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/add_task"
+                android:text="@string/title_addTask" />
+
+            <Button
+                android:id="@+id/home_btn_today"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/today"
+                android:text="Today" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/home_btn_tomorrow"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/tomorrow"
+                android:text="Tomorrow" />
+
+            <Button
+                android:id="@+id/home_btn_thisWeek"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/this_week"
+                android:text="This Week" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/home_btn_manageTasks"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/tasks"
+                android:text="@string/title_manageTasks" />
+
+            <Button
+                android:id="@+id/home_btn_lists"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/lists"
+                android:text="@string/title_lists" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/home_btn_tags"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/tags"
+                android:text="@string/title_tags" />
+
+            <Button
+                android:id="@+id/home_btn_settings"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/settings"
+                android:text="@string/title_settings" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,3 @@
+- Comment out the include of the admob file in title_bar.xml
+- Change Constants.PRO_VERSION to true
+- Change the package to the existing package + ".pro"
