@@ -28,15 +28,15 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.TreeSet;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import com.jdom.get.stuff.done.domain.Constants;
 import com.jdom.get.stuff.done.domain.Task;
 import com.jdom.get.stuff.done.model.EditTaskModel;
 import com.jdom.get.stuff.done.model.impl.EditTaskModelImpl;
 import com.jdom.get.stuff.done.presenter.converter.TaskListToTaskNameViewList;
-import com.jdom.util.patterns.mvp.ActionConfiguration;
-import com.jdom.util.patterns.observer.Subject;
+import com.jdom.util.mvp.api.ActionConfiguration;
+import com.jdom.util.mvp.api.Subject;
 
 public class EditTaskPresenter extends
 		BaseTaskPresenter<EditTaskModel, EditTaskView> {

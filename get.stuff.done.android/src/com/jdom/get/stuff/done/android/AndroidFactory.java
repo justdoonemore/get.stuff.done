@@ -18,7 +18,7 @@ package com.jdom.get.stuff.done.android;
 
 import android.app.Activity;
 
-import com.jdom.util.patterns.mvp.BaseApplicationPresenter;
+import com.jdom.util.mvp.api.BaseApplicationPresenter;
 
 class AndroidFactory<PRESENTER extends BaseApplicationPresenter<?, ?, ?>> {
 

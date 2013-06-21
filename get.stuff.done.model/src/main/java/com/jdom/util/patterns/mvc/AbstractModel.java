@@ -19,8 +19,8 @@ package com.jdom.util.patterns.mvc;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.jdom.util.patterns.observer.Observer;
-import com.jdom.util.patterns.observer.Subject;
+import com.jdom.util.mvp.api.Observer;
+import com.jdom.util.mvp.api.Subject;
 
 public abstract class AbstractModel implements Subject {
 

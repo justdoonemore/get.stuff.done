@@ -22,7 +22,7 @@ import java.util.Set;
 import com.jdom.get.stuff.done.domain.Task;
 import com.jdom.get.stuff.done.domain.TaskList;
 import com.jdom.get.stuff.done.model.ContextFactory;
-import com.jdom.util.patterns.mvp.BaseApplicationModelImpl;
+import com.jdom.util.mvp.api.BaseApplicationModelImpl;
 
 public class BaseTaskModelImpl extends BaseApplicationModelImpl<ContextFactory> {
 

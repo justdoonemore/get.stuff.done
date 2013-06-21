@@ -27,9 +27,9 @@ import com.jdom.get.stuff.done.domain.TaskList;
 import com.jdom.get.stuff.done.model.ListsModel;
 import com.jdom.get.stuff.done.model.impl.ListsModelImpl;
 import com.jdom.get.stuff.done.presenter.converter.TaskListToListNameConverter;
-import com.jdom.util.patterns.mvp.ActionConfiguration;
-import com.jdom.util.patterns.mvp.MenuItemConfiguration;
-import com.jdom.util.patterns.observer.Subject;
+import com.jdom.util.mvp.api.ActionConfiguration;
+import com.jdom.util.mvp.api.MenuItemConfiguration;
+import com.jdom.util.mvp.api.Subject;
 
 public class ListsPresenter extends BasePresenter<ListsModel, ListsView> {
 

@@ -23,7 +23,7 @@ import com.jdom.get.stuff.done.domain.TaskList;
 import com.jdom.get.stuff.done.model.ContextFactory;
 import com.jdom.get.stuff.done.model.ListsModel;
 import com.jdom.get.stuff.done.presenter.SyncOption;
-import com.jdom.util.patterns.mvp.BaseApplicationModelImpl;
+import com.jdom.util.mvp.api.BaseApplicationModelImpl;
 
 public class ListsModelImpl extends BaseApplicationModelImpl<ContextFactory>
 		implements ListsModel {

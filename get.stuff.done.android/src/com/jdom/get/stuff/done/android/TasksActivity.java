@@ -46,7 +46,7 @@ import com.jdom.get.stuff.done.domain.ListItemConfiguration;
 import com.jdom.get.stuff.done.presenter.TasksPresenter;
 import com.jdom.get.stuff.done.presenter.TasksView;
 import com.jdom.util.collections.CollectionsUtil;
-import com.jdom.util.patterns.mvp.MenuItemConfiguration;
+import com.jdom.util.mvp.api.MenuItemConfiguration;
 
 public class TasksActivity extends BaseActivity<TasksPresenter> implements
 		TasksView {

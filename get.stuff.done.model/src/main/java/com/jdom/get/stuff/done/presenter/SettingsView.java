@@ -18,7 +18,7 @@ package com.jdom.get.stuff.done.presenter;
 
 import java.util.List;
 
-import com.jdom.util.patterns.mvp.ActionConfiguration;
+import com.jdom.util.mvp.api.ActionConfiguration;
 
 public interface SettingsView extends BaseView {
 

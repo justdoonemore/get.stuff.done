@@ -33,7 +33,7 @@ import com.jdom.get.stuff.done.model.ContextFactory;
 import com.jdom.get.stuff.done.model.TasksModel;
 import com.jdom.get.stuff.done.model.dao.ApplicationDao;
 import com.jdom.get.stuff.done.presenter.SyncOption;
-import com.jdom.util.patterns.mvp.BaseApplicationModelImpl;
+import com.jdom.util.mvp.api.BaseApplicationModelImpl;
 
 public class TasksModelImpl extends BaseApplicationModelImpl<ContextFactory>
 		implements TasksModel {

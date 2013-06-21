@@ -28,7 +28,7 @@ import java.util.Set;
 import java.util.TimeZone;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -330,8 +330,7 @@ public class AndroidSyncStrategy extends GoogleSynchronizeStrategy implements
 					.getTasks().iterator();
 			List<com.jdom.get.stuff.done.domain.Task> taskUpdatedList = new ArrayList<com.jdom.get.stuff.done.domain.Task>();
 			while (taskIter.hasNext()) {
-				com.jdom.get.stuff.done.domain.Task localTask = taskIter
-						.next();
+				com.jdom.get.stuff.done.domain.Task localTask = taskIter.next();
 				String remoteId = localTask.getRemoteIdentifier();
 				// If remoteId is null, then this is a local task that needs a
 				// remote created
@@ -523,7 +522,7 @@ public class AndroidSyncStrategy extends GoogleSynchronizeStrategy implements
 				editor.commit();
 
 			} catch (Exception e) {
-				handleException(new IOException(e));
+				handleException(e);
 			}
 			AndroidSyncStrategy.logTimeTaken("Retrieving new token",
 					portionStart);

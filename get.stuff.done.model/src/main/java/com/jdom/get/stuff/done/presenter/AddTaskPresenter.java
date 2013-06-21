@@ -28,8 +28,8 @@ import com.jdom.get.stuff.done.domain.Constants;
 import com.jdom.get.stuff.done.model.AddTaskModel;
 import com.jdom.get.stuff.done.model.impl.AddTaskModelImpl;
 import com.jdom.util.collections.CollectionsUtil;
-import com.jdom.util.patterns.mvp.ActionConfiguration;
-import com.jdom.util.patterns.observer.Subject;
+import com.jdom.util.mvp.api.ActionConfiguration;
+import com.jdom.util.mvp.api.Subject;
 
 public class AddTaskPresenter extends
 		BaseTaskPresenter<AddTaskModel, AddTaskView> {

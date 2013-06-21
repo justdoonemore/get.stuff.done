@@ -18,7 +18,7 @@ package com.jdom.get.stuff.done.presenter;
 
 import java.util.List;
 
-import com.jdom.util.patterns.mvp.MenuItemConfiguration;
+import com.jdom.util.mvp.api.MenuItemConfiguration;
 
 public interface DashboardView extends BaseView {
 	void setDashboardOptions(List<MenuItemConfiguration> dashboardOptions);

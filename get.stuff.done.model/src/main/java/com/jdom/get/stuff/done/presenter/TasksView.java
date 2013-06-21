@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Set;
 
 import com.jdom.get.stuff.done.domain.ListItemConfiguration;
-import com.jdom.util.patterns.mvp.MenuItemConfiguration;
+import com.jdom.util.mvp.api.MenuItemConfiguration;
 
 public interface TasksView extends BaseView {
 	void setTasks(List<ListItemConfiguration> tasks, boolean[] completedStatus);

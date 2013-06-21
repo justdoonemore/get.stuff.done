@@ -22,7 +22,7 @@ import java.util.Set;
 import com.jdom.get.stuff.done.domain.FilterOption;
 import com.jdom.get.stuff.done.domain.SortOption;
 import com.jdom.get.stuff.done.domain.Task;
-import com.jdom.util.patterns.mvp.BaseApplicationModel;
+import com.jdom.util.mvp.api.BaseApplicationModel;
 
 public interface TasksModel extends BaseApplicationModel<ContextFactory> {
 

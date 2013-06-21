@@ -26,9 +26,9 @@ import com.jdom.get.stuff.done.domain.Constants;
 import com.jdom.get.stuff.done.model.SettingsModel;
 import com.jdom.get.stuff.done.model.dao.ApplicationDao;
 import com.jdom.get.stuff.done.model.impl.SettingsModelImpl;
-import com.jdom.util.patterns.mvp.ActionConfiguration;
-import com.jdom.util.patterns.mvp.RunnableWithResults;
-import com.jdom.util.patterns.observer.Subject;
+import com.jdom.util.mvp.api.ActionConfiguration;
+import com.jdom.util.mvp.api.RunnableWithResults;
+import com.jdom.util.mvp.api.Subject;
 
 public class SettingsPresenter extends
 		BasePresenter<SettingsModel, SettingsView> {

@@ -5,23 +5,24 @@
 	<parent>
 		<groupId>com.jdom</groupId>
 		<artifactId>get.stuff.done</artifactId>
-		<version>0.0.1</version>
+		<version>0.0.2</version>
+		<relativePath>..</relativePath>
 	</parent>
 
 	<artifactId>get.stuff.done.model</artifactId>
 
 	<dependencies>
 		<dependency>
-			<groupId>org.powermock</groupId>
-			<artifactId>powermock-module-junit4</artifactId>
-			<version>${powermock.version}</version>
-			<scope>test</scope>
+			<groupId>com.jdom</groupId>
+			<artifactId>util.mvp.api</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.powermock</groupId>
-			<artifactId>powermock-api-mockito</artifactId>
-			<version>${powermock.version}</version>
-			<scope>test</scope>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.apis</groupId>
+			<artifactId>google-api-services-tasks</artifactId>
 		</dependency>
 	</dependencies>
 </project>

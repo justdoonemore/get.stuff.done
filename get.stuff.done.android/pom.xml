@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.jdom</groupId>
 		<artifactId>get.stuff.done</artifactId>
-		<version>0.0.1</version>
+		<version>0.0.2</version>
 		<relativePath>..</relativePath>
 	</parent>
 
@@ -15,8 +15,6 @@
 	<properties>
 		<android.version>2.2.1</android.version>
 		<sdk.version>15</sdk.version>
-		<jdk.compliance>1.5</jdk.compliance>
-		<admob.version>4.3.1</admob.version>
 	</properties>
 
 	<build>
@@ -68,15 +66,14 @@
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
+			<groupId>com.google.api-client</groupId>
+			<artifactId>google-api-client-extensions-android2</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>com.google.android</groupId>
 			<artifactId>android</artifactId>
 			<version>${android.version}</version>
 			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>admob</groupId>
-			<artifactId>admob</artifactId>
-			<version>${admob.version}</version>
 		</dependency>
 	</dependencies>
 </project>

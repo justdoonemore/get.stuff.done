@@ -17,7 +17,7 @@
 package com.jdom.get.stuff.done.presenter;
 
 import com.jdom.get.stuff.done.model.ContextFactory;
-import com.jdom.util.patterns.mvp.BaseApplicationView;
+import com.jdom.util.mvp.api.BaseApplicationView;
 
 public interface BaseView extends BaseApplicationView<ContextFactory> {
 	void close();

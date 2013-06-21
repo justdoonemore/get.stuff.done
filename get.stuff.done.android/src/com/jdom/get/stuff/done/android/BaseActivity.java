@@ -39,8 +39,8 @@ import android.widget.Toast;
 
 import com.jdom.get.stuff.done.domain.Constants;
 import com.jdom.get.stuff.done.model.ContextFactory;
-import com.jdom.util.patterns.mvp.BaseApplicationPresenter;
-import com.jdom.util.patterns.mvp.BaseApplicationView;
+import com.jdom.util.mvp.api.BaseApplicationPresenter;
+import com.jdom.util.mvp.api.BaseApplicationView;
 
 public abstract class BaseActivity<PRESENTER extends BaseApplicationPresenter<ContextFactory, ?, ?>>
 		extends Activity implements BaseApplicationView<ContextFactory> {

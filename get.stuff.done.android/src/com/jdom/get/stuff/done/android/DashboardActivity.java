@@ -27,7 +27,7 @@ import android.widget.Button;
 import com.jdom.get.stuff.done.domain.Constants;
 import com.jdom.get.stuff.done.presenter.DashboardPresenter;
 import com.jdom.get.stuff.done.presenter.DashboardView;
-import com.jdom.util.patterns.mvp.MenuItemConfiguration;
+import com.jdom.util.mvp.api.MenuItemConfiguration;
 
 public class DashboardActivity extends BaseActivity<DashboardPresenter>
 		implements DashboardView {

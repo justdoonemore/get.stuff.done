@@ -19,15 +19,15 @@ package com.jdom.get.stuff.done.presenter;
 import java.util.Properties;
 import java.util.Set;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import com.jdom.get.stuff.done.domain.Constants;
 import com.jdom.get.stuff.done.domain.Task;
 import com.jdom.get.stuff.done.model.ContextFactory;
 import com.jdom.get.stuff.done.model.dao.ApplicationDao;
-import com.jdom.util.patterns.mvp.BaseApplicationModel;
-import com.jdom.util.patterns.mvp.BaseApplicationPresenter;
-import com.jdom.util.patterns.mvp.RunnableWithResults;
+import com.jdom.util.mvp.api.BaseApplicationModel;
+import com.jdom.util.mvp.api.BaseApplicationPresenter;
+import com.jdom.util.mvp.api.RunnableWithResults;
 
 public abstract class BasePresenter<MODEL extends BaseApplicationModel<ContextFactory>, VIEW extends BaseView>
 		extends BaseApplicationPresenter<ContextFactory, MODEL, VIEW> {

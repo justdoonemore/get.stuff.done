@@ -35,8 +35,8 @@ import com.jdom.get.stuff.done.model.TasksModel;
 import com.jdom.get.stuff.done.model.impl.TasksModelImpl;
 import com.jdom.get.stuff.done.presenter.converter.Converter;
 import com.jdom.get.stuff.done.presenter.converter.TaskToListItemConverter;
-import com.jdom.util.patterns.mvp.MenuItemConfiguration;
-import com.jdom.util.patterns.observer.Subject;
+import com.jdom.util.mvp.api.MenuItemConfiguration;
+import com.jdom.util.mvp.api.Subject;
 
 public class TasksPresenter extends BasePresenter<TasksModel, TasksView> {
 

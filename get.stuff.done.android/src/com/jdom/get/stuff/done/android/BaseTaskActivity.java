@@ -37,7 +37,7 @@ import com.jdom.get.stuff.done.domain.Constants;
 import com.jdom.get.stuff.done.model.dao.ApplicationDao;
 import com.jdom.get.stuff.done.presenter.BaseTaskPresenter;
 import com.jdom.get.stuff.done.presenter.TaskField;
-import com.jdom.util.patterns.mvp.ActionConfiguration;
+import com.jdom.util.mvp.api.ActionConfiguration;
 
 public abstract class BaseTaskActivity<PRESENTER extends BaseTaskPresenter<?, ?>>
 		extends BaseActivity<PRESENTER> {

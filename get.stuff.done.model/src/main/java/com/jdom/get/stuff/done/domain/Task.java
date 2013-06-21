@@ -23,8 +23,8 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.TimeZone;
 
-import org.apache.commons.lang.builder.EqualsBuilder;
-import org.apache.commons.lang.builder.HashCodeBuilder;
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 import com.google.api.client.util.DateTime;
 import com.jdom.get.stuff.done.sync.LocalTask;

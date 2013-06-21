@@ -23,7 +23,7 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.TreeSet;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -42,9 +42,9 @@ import com.jdom.get.stuff.done.domain.Constants;
 import com.jdom.get.stuff.done.model.ContextFactory;
 import com.jdom.get.stuff.done.model.dao.DaoFactory;
 import com.jdom.get.stuff.done.sync.SynchronizeStrategy;
-import com.jdom.util.patterns.mvp.ApplicationContextFactory;
-import com.jdom.util.patterns.mvp.BaseApplicationView;
-import com.jdom.util.patterns.mvp.RunnableWithResults;
+import com.jdom.util.mvp.api.ApplicationContextFactory;
+import com.jdom.util.mvp.api.BaseApplicationView;
+import com.jdom.util.mvp.api.RunnableWithResults;
 
 public class AndroidApplicationContextFactory implements ContextFactory {
 

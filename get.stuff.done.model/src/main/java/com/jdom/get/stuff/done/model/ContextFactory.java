@@ -20,7 +20,7 @@ import java.util.Set;
 
 import com.jdom.get.stuff.done.model.dao.DaoFactory;
 import com.jdom.get.stuff.done.sync.SynchronizeStrategy;
-import com.jdom.util.patterns.mvp.ApplicationContextFactory;
+import com.jdom.util.mvp.api.ApplicationContextFactory;
 
 public interface ContextFactory extends ApplicationContextFactory {
 	DaoFactory getDaoFactory();

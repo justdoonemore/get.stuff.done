@@ -16,11 +16,12 @@
  */
 package com.jdom.util.patterns.mvc;
 
-import com.jdom.util.patterns.observer.Observer;
-import com.jdom.util.patterns.observer.base.AbstractModel;
+import com.jdom.util.mvp.api.AbstractModel;
+import com.jdom.util.mvp.api.Observer;
 
-public interface AbstractView<MODEL extends AbstractModel, CONTROLLER extends Controller> extends Observer {
-    MODEL getModel();
+public interface AbstractView<MODEL extends AbstractModel, CONTROLLER extends Controller>
+		extends Observer {
+	MODEL getModel();
 
-    CONTROLLER getController();
+	CONTROLLER getController();
 }

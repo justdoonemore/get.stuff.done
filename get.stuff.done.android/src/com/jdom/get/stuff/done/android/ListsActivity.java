@@ -35,8 +35,8 @@ import android.widget.TextView;
 
 import com.jdom.get.stuff.done.presenter.ListsPresenter;
 import com.jdom.get.stuff.done.presenter.ListsView;
-import com.jdom.util.patterns.mvp.ActionConfiguration;
-import com.jdom.util.patterns.mvp.MenuItemConfiguration;
+import com.jdom.util.mvp.api.ActionConfiguration;
+import com.jdom.util.mvp.api.MenuItemConfiguration;
 
 public class ListsActivity extends BaseActivity<ListsPresenter> implements
 		ListsView {

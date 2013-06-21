@@ -22,7 +22,7 @@ import com.jdom.get.stuff.done.domain.Constants;
 import com.jdom.get.stuff.done.domain.TagFilterOption;
 import com.jdom.get.stuff.done.model.TagsModel;
 import com.jdom.get.stuff.done.model.impl.TagsModelImpl;
-import com.jdom.util.patterns.observer.Subject;
+import com.jdom.util.mvp.api.Subject;
 
 public class TagsPresenter extends BasePresenter<TagsModel, TagsView> {
 

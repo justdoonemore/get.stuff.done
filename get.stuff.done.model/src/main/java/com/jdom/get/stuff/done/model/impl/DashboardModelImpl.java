@@ -18,7 +18,7 @@ package com.jdom.get.stuff.done.model.impl;
 
 import com.jdom.get.stuff.done.model.ContextFactory;
 import com.jdom.get.stuff.done.model.DashboardModel;
-import com.jdom.util.patterns.mvp.BaseApplicationModelImpl;
+import com.jdom.util.mvp.api.BaseApplicationModelImpl;
 
 public class DashboardModelImpl extends
 		BaseApplicationModelImpl<ContextFactory> implements DashboardModel {

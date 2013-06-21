@@ -20,7 +20,7 @@ import java.util.Set;
 
 import com.jdom.get.stuff.done.domain.Task;
 import com.jdom.get.stuff.done.domain.TaskList;
-import com.jdom.util.patterns.mvp.BaseApplicationModel;
+import com.jdom.util.mvp.api.BaseApplicationModel;
 
 public interface BaseTaskModel extends BaseApplicationModel<ContextFactory> {
 	Set<TaskList> getTaskLists();

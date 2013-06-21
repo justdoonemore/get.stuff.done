@@ -20,7 +20,7 @@ import java.util.Set;
 
 import com.jdom.get.stuff.done.model.ContextFactory;
 import com.jdom.get.stuff.done.model.TagsModel;
-import com.jdom.util.patterns.mvp.BaseApplicationModelImpl;
+import com.jdom.util.mvp.api.BaseApplicationModelImpl;
 
 public class TagsModelImpl extends BaseApplicationModelImpl<ContextFactory>
 		implements TagsModel {

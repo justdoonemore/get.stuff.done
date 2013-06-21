@@ -16,7 +16,7 @@
  */
 package com.jdom.util.patterns.mvc;
 
-import com.jdom.util.patterns.observer.base.AbstractModel;
+import com.jdom.util.mvp.api.AbstractModel;
 
 public interface Controller<VIEW extends AbstractView<MODEL, Controller<VIEW, MODEL>>, MODEL extends AbstractModel> {
 

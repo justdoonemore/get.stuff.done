@@ -20,7 +20,7 @@ import java.util.Properties;
 
 import com.jdom.get.stuff.done.model.AboutModel;
 import com.jdom.get.stuff.done.model.impl.AboutModelImpl;
-import com.jdom.util.patterns.observer.Subject;
+import com.jdom.util.mvp.api.Subject;
 
 public class AboutPresenter extends BasePresenter<AboutModel, AboutView> {
 

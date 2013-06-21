@@ -27,14 +27,14 @@ import java.util.List;
 import java.util.Properties;
 import java.util.Set;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import com.jdom.get.stuff.done.domain.Constants;
 import com.jdom.get.stuff.done.domain.Task;
 import com.jdom.get.stuff.done.model.BaseTaskModel;
 import com.jdom.util.date.DateUtil;
-import com.jdom.util.patterns.mvp.ActionConfiguration;
-import com.jdom.util.patterns.mvp.RunnableWithResults;
+import com.jdom.util.mvp.api.ActionConfiguration;
+import com.jdom.util.mvp.api.RunnableWithResults;
 import com.jdom.util.time.TimeConstants;
 
 public abstract class BaseTaskPresenter<MODEL extends BaseTaskModel, VIEW extends BaseTaskView>

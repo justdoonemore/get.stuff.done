@@ -18,8 +18,8 @@ package com.jdom.get.stuff.done.presenter;
 
 import java.util.List;
 
-import com.jdom.util.patterns.mvp.ActionConfiguration;
-import com.jdom.util.patterns.mvp.MenuItemConfiguration;
+import com.jdom.util.mvp.api.ActionConfiguration;
+import com.jdom.util.mvp.api.MenuItemConfiguration;
 
 public interface ListsView extends BaseView {
 	void setListListItems(List<String> listListItems,

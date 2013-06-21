@@ -29,7 +29,7 @@ import android.widget.ListView;
 
 import com.jdom.get.stuff.done.presenter.SettingsPresenter;
 import com.jdom.get.stuff.done.presenter.SettingsView;
-import com.jdom.util.patterns.mvp.ActionConfiguration;
+import com.jdom.util.mvp.api.ActionConfiguration;
 
 public class SettingsActivity extends BaseActivity<SettingsPresenter> implements
 		SettingsView {

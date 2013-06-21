@@ -18,7 +18,7 @@ package com.jdom.get.stuff.done.model;
 
 import java.util.Set;
 
-import com.jdom.util.patterns.mvp.BaseApplicationModel;
+import com.jdom.util.mvp.api.BaseApplicationModel;
 
 public interface TagsModel extends BaseApplicationModel<ContextFactory> {
 

@@ -27,9 +27,9 @@ import com.jdom.get.stuff.done.model.DashboardModel;
 import com.jdom.get.stuff.done.model.dao.ApplicationDao;
 import com.jdom.get.stuff.done.model.impl.DashboardModelImpl;
 import com.jdom.util.date.DateUtil;
-import com.jdom.util.patterns.mvp.MenuItemConfiguration;
-import com.jdom.util.patterns.mvp.RunnableWithResults;
-import com.jdom.util.patterns.observer.Subject;
+import com.jdom.util.mvp.api.MenuItemConfiguration;
+import com.jdom.util.mvp.api.RunnableWithResults;
+import com.jdom.util.mvp.api.Subject;
 
 public class DashboardPresenter extends
 		BasePresenter<DashboardModel, DashboardView> {
